@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Chun Hei 👋
 
-<!--
-**titusmanch/titusmanch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am interested in Data Analytics, Quantitative Finance, Financial Data Engineering and AI automation.
 
-Here are some ideas to get you started:
+## Technical Interests
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Data Analytics and Business Intelligence
+- Quantitative and Financial Analysis
+- Data Engineering and Automation
+- Python and SQL
+- AI-assisted workflows
+
+## Current Projects
+
+I am currently organizing and documenting my data, automation and AI projects.
+
+## Technologies
+
+- Python
+- SQL
+- GitHub Actions
+- REST APIs
+- Data Analysis and Visualization
+
+## Contact
+
+- GitHub: [titusmanch](https://github.com/titusmanch)
