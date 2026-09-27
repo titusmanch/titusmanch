@@ -1,6 +1,9 @@
 # Hi, I'm Chun Hei Man 👋
 
-I am developing my skills in data analytics, financial data analysis, quantitative analysis and AI-assisted automation through hands-on personal projects. I enjoy learning how Python and APIs can be used to automate repetitive tasks and produce useful, easy-to-understand outputs.
+I am developing my skills in **data analytics, financial data analysis,
+quantitative analysis and AI-assisted automation** through hands-on personal
+projects. I enjoy learning how Python and APIs can automate repetitive tasks and
+produce useful, easy-to-understand outputs.
 
 ## Featured Projects
 
@@ -54,8 +57,3 @@ Reserved for an applied AI workflow, agent or productivity automation project.
 - Quantitative and financial-data analysis
 - Data engineering and workflow automation
 - Applied AI tools and automation
-
-## Contact
-
-Please contact me through GitHub. Additional project case studies and professional
-contact details will be added as this portfolio develops.
