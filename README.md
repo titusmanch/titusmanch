@@ -1,8 +1,6 @@
 # Hi, I'm Chun Hei Man 👋
 
-I build practical projects in **data analytics, financial data, quantitative
-analysis and AI-assisted automation**. My focus is turning repetitive processes into
-reliable data pipelines and clear, useful outputs.
+I am developing my skills in data analytics, financial data analysis, quantitative analysis and AI-assisted automation through hands-on personal projects. I enjoy learning how Python and APIs can be used to automate repetitive tasks and produce useful, easy-to-understand outputs.
 
 ## Featured Projects
 
