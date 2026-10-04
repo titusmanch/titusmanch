@@ -1,41 +1,40 @@
 # Hi, I'm Chun Hei Man 👋
 
-I am developing my skills in **data analytics, financial data analysis,
-quantitative analysis and AI-assisted automation** through hands-on personal
-projects. I enjoy learning how Python and APIs can automate repetitive tasks and
-produce useful, easy-to-understand outputs.
+I build hands-on Python projects in **quantitative research, financial-data
+automation and workflow engineering**. My current portfolio focuses on turning
+market data and repetitive information-processing tasks into reproducible,
+auditable systems.
 
 ## Featured Projects
 
-### 1. [Daily Job Intelligence Automation](https://github.com/titusmanch/job-crawler-info)
+### 1. [Futu Quant Research & Paper-Trading System](https://github.com/titusmanch/futu-quant-portfolio)
 
-A scheduled Python pipeline that combines JobsDB email alerts with school-IT
-vacancies from Ming Pao JUMP and delivers a structured daily WhatsApp report.
+A reproducible signal-to-order workflow for US-equity research and Futu paper
+trading. It separates strategy, backtesting, risk control, broker execution and
+audit logging, and deliberately rejects real-money trading environments.
 
-**What it demonstrates**
+**Highlights**
 
-- Gmail API integration using OAuth 2.0 read-only access
-- Multi-source data extraction, parsing, filtering and deduplication
-- Automated deployment and scheduling with GitHub Actions
-- Secure secret management for external API integrations
-- A working end-to-end output designed for daily use
+- Bias-aware backtesting with next-bar execution
+- Configurable commission and adverse slippage
+- CAGR, Sharpe, Calmar, maximum drawdown and benchmark comparison
+- Position, buying-power, daily-loss, market-hours and kill-switch risk gates
+- Restart-safe duplicate-order prevention and SQLite audit trail
+- Futu OpenD integration restricted to `SIMULATE`
 
-**Technologies:** Python, Gmail API, OAuth 2.0, GitHub Actions, BeautifulSoup,
-Selenium, REST APIs
+**Technologies:** Python, pandas, NumPy, matplotlib, SQLite, pytest, Futu OpenAPI
+
+> Included demo results are illustrative and are not investment-performance claims.
 
 ---
 
-### 2. Quantitative Strategy Research — Coming Soon
+### 2. [Quantitative Market Intelligence Report](https://github.com/titusmanch/market-intelligence-pipeline-info)
 
-Reserved for a reproducible strategy-research project covering signal construction,
-backtesting assumptions, transaction costs, benchmark comparison and risk metrics.
+An auditable pipeline that combines financial-news evidence with deterministic
+technical indicators and produces structured daily market-intelligence reports
+in HTML, JSON, CSV and SQLite formats.
 
-### 3. [Market Intelligence Pipeline](https://github.com/titusmanch/market-intelligence-pipeline-info)
-
-An auditable Python pipeline that combines financial-news evidence with deterministic
-technical indicators and produces validated HTML, JSON, CSV and SQLite reports.
-
-**What it demonstrates**
+**Highlights**
 
 - Modular financial-data ingestion, cleaning and provenance tracking
 - Deterministic SMA, RSI, MACD, ATR and Bollinger Band calculations
@@ -46,25 +45,35 @@ technical indicators and produces validated HTML, JSON, CSV and SQLite reports.
 **Technologies:** Python, Pydantic, RSS/Atom, SQLite, HTML, pytest, GitHub Actions,
 OpenRouter-compatible APIs
 
-### 4. Dashboard Project — Coming Soon
+---
 
-Reserved for an interactive dashboard or business-intelligence case study.
+### 3. [Daily Job Intelligence Automation](https://github.com/titusmanch/job-crawler-info)
 
-### 5. AI Automation Project — Coming Soon
+A scheduled Python pipeline that combines JobsDB email alerts with school-IT
+vacancies from Ming Pao JUMP, filters and deduplicates results, and delivers a
+structured daily WhatsApp report.
 
-Reserved for an applied AI workflow, agent or productivity automation project.
+**Highlights**
+
+- Gmail API integration using OAuth 2.0
+- Multi-source extraction, parsing, filtering and deduplication
+- Scheduled execution with GitHub Actions
+- Secure GitHub Secrets management for external integrations
+- Automatic Gmail labelling and inbox filing after successful processing
+
+**Technologies:** Python, Gmail API, OAuth 2.0, GitHub Actions, BeautifulSoup,
+Selenium, REST APIs
 
 ## Technical Toolkit
 
-- **Programming:** Python
-- **Data:** extraction, cleaning, validation, analysis and structured storage
-- **Automation:** scheduled pipelines, workflow design and API integration
-- **APIs:** Gmail API, OAuth 2.0, RSS/Atom and REST services
-- **Tools:** GitHub, GitHub Actions, JSON, CSV, SQLite, Pydantic, BeautifulSoup and Selenium
+- **Quantitative research:** backtesting, benchmark comparison, performance and risk metrics
+- **Programming and data:** Python, pandas, NumPy, Pydantic, JSON, CSV and SQLite
+- **Automation:** GitHub Actions, scheduled pipelines, API integration and audit logging
+- **Testing and controls:** pytest, deterministic workflows, validation and risk gates
 
 ## Current Focus
 
-- Data analytics and business intelligence
-- Quantitative and financial-data analysis
-- Data engineering and workflow automation
-- Applied AI tools and automation
+- Quantitative analysis and systematic strategy research
+- Financial-data pipelines and market intelligence
+- Reliable automation with transparent assumptions and reproducible outputs
+
