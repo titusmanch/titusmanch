@@ -30,7 +30,7 @@ Selenium, REST APIs
 Reserved for a reproducible strategy-research project covering signal construction,
 backtesting assumptions, transaction costs, benchmark comparison and risk metrics.
 
-### 3. [Market Intelligence Pipeline](https://github.com/titusmanch/market-intelligence-pipeline)
+### 3. [Market Intelligence Pipeline](https://github.com/titusmanch/market-intelligence-pipeline-info)
 
 An auditable Python pipeline that combines financial-news evidence with deterministic
 technical indicators and produces validated HTML, JSON, CSV and SQLite reports.
