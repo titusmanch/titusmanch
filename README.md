@@ -25,15 +25,26 @@ Selenium, REST APIs
 
 ---
 
-### 2. Data Analytics Project — Coming Soon
+### 2. Quantitative Strategy Research — Coming Soon
 
-Reserved for an analysis project with data cleaning, exploratory analysis,
-visualisation and business insights.
+Reserved for a reproducible strategy-research project covering signal construction,
+backtesting assumptions, transaction costs, benchmark comparison and risk metrics.
 
-### 3. Financial / Quantitative Project — Coming Soon
+### 3. [Market Intelligence Pipeline](https://github.com/titusmanch/market-intelligence-pipeline)
 
-Reserved for a financial-data or quantitative-analysis project with a clear research
-question, methodology and reproducible results.
+An auditable Python pipeline that combines financial-news evidence with deterministic
+technical indicators and produces validated HTML, JSON, CSV and SQLite reports.
+
+**What it demonstrates**
+
+- Modular financial-data ingestion, cleaning and provenance tracking
+- Deterministic SMA, RSI, MACD, ATR and Bollinger Band calculations
+- Controlled ticker validation and strict Pydantic output schemas
+- Optional LLM interpretation with validation and deterministic fallback
+- Reproducible offline samples, automated tests and secure configuration
+
+**Technologies:** Python, Pydantic, RSS/Atom, SQLite, HTML, pytest, GitHub Actions,
+OpenRouter-compatible APIs
 
 ### 4. Dashboard Project — Coming Soon
 
@@ -46,10 +57,10 @@ Reserved for an applied AI workflow, agent or productivity automation project.
 ## Technical Toolkit
 
 - **Programming:** Python
-- **Data:** extraction, cleaning, filtering, analysis and visualisation
+- **Data:** extraction, cleaning, validation, analysis and structured storage
 - **Automation:** scheduled pipelines, workflow design and API integration
-- **APIs:** Gmail API, OAuth 2.0 and REST services
-- **Tools:** GitHub, GitHub Actions, JSON, BeautifulSoup and Selenium
+- **APIs:** Gmail API, OAuth 2.0, RSS/Atom and REST services
+- **Tools:** GitHub, GitHub Actions, JSON, CSV, SQLite, Pydantic, BeautifulSoup and Selenium
 
 ## Current Focus
 
