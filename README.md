@@ -1,17 +1,12 @@
 # Hi, I'm Chun Hei Man 👋
 
-I build hands-on Python projects in **quantitative research, financial-data
-automation and workflow engineering**. My current portfolio focuses on turning
-market data and repetitive information-processing tasks into reproducible,
-auditable systems.
+I build Python-based projects in **systematic trading, quantitative research and financial-data engineering**. My current portfolio focuses on reproducible backtesting, risk management, market-data pipelines and automated research workflows.
 
 ## Featured Projects
 
 ### 1. [Futu Quant Research & Paper-Trading System](https://github.com/titusmanch/futu-quant-portfolio)
 
-A reproducible signal-to-order workflow for US-equity research and Futu paper
-trading. It separates strategy, backtesting, risk control, broker execution and
-audit logging, and deliberately rejects real-money trading environments.
+A reproducible systematic-trading research and paper-trading workflow for US equities. It separates strategy research, backtesting, risk control, broker execution and audit logging, while deliberately restricting broker execution to the Futu `SIMULATE` environment.
 
 **Highlights**
 
@@ -28,11 +23,9 @@ audit logging, and deliberately rejects real-money trading environments.
 
 ---
 
-### 2. [Quantitative Market Intelligence Report](https://github.com/titusmanch/market-intelligence-pipeline-info)
+### 2. [Financial Market Intelligence & Quantitative Signal Pipeline](https://github.com/titusmanch/market-intelligence-pipeline-info)
 
-An auditable pipeline that combines financial-news evidence with deterministic
-technical indicators and produces structured daily market-intelligence reports
-in HTML, JSON, CSV and SQLite formats.
+An auditable Python pipeline that combines financial-news evidence with deterministic technical indicators and produces structured daily market-intelligence reports in HTML, JSON, CSV and SQLite formats.
 
 **Highlights**
 
@@ -42,16 +35,13 @@ in HTML, JSON, CSV and SQLite formats.
 - Optional LLM interpretation with validation and deterministic fallback
 - Reproducible offline samples, automated tests and secure configuration
 
-**Technologies:** Python, Pydantic, RSS/Atom, SQLite, HTML, pytest, GitHub Actions,
-OpenRouter-compatible APIs
+**Technologies:** Python, Pydantic, RSS/Atom, SQLite, HTML, pytest, GitHub Actions, OpenRouter-compatible APIs
 
 ---
 
 ### 3. [Daily Job Intelligence Automation](https://github.com/titusmanch/job-crawler-info)
 
-A scheduled Python pipeline that combines JobsDB email alerts with school-IT
-vacancies from Ming Pao JUMP, filters and deduplicates results, and delivers a
-structured daily WhatsApp report.
+A scheduled Python pipeline that combines JobsDB email alerts with school-IT vacancies from Ming Pao JUMP, filters and deduplicates results, and delivers a structured daily WhatsApp report.
 
 **Highlights**
 
@@ -61,19 +51,19 @@ structured daily WhatsApp report.
 - Secure GitHub Secrets management for external integrations
 - Automatic Gmail labelling and inbox filing after successful processing
 
-**Technologies:** Python, Gmail API, OAuth 2.0, GitHub Actions, BeautifulSoup,
-Selenium, REST APIs
+**Technologies:** Python, Gmail API, OAuth 2.0, GitHub Actions, BeautifulSoup, Selenium, REST APIs
 
 ## Technical Toolkit
 
-- **Quantitative research:** backtesting, benchmark comparison, performance and risk metrics
-- **Programming and data:** Python, pandas, NumPy, Pydantic, JSON, CSV and SQLite
+- **Systematic trading & quantitative research:** backtesting, benchmark comparison, performance metrics, risk management and strategy evaluation
+- **Programming & data:** Python, pandas, NumPy, Pydantic, JSON, CSV and SQLite
+- **Financial data & APIs:** Futu OpenAPI, market-price data, RSS/Atom feeds and REST APIs
 - **Automation:** GitHub Actions, scheduled pipelines, API integration and audit logging
-- **Testing and controls:** pytest, deterministic workflows, validation and risk gates
+- **Testing & controls:** pytest, deterministic workflows, validation and risk gates
 
 ## Current Focus
 
-- Quantitative analysis and systematic strategy research
+- Systematic trading and quantitative strategy research
+- Reproducible backtesting and risk management
 - Financial-data pipelines and market intelligence
 - Reliable automation with transparent assumptions and reproducible outputs
-
